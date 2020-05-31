@@ -22,7 +22,7 @@ p {
     color: rgb(138, 138, 138);
 }
 
-a {
+#linkPostagem {
     text-decoration: none;
     color: rgb(230, 53, 53);
     border: 3px solid rgb(230, 53, 53);
@@ -38,7 +38,7 @@ a {
     transition: .5s;
 }
 
-a:hover, .actions button:hover {
+#linkPostagem:hover, .actions button:hover {
     background-color: rgb(230, 53, 53);
     color: white;
 }

@@ -53,7 +53,7 @@ export default class Main extends Component {
                   <article key= {product._id}>
                       <h2>{product.title}</h2>
                         <p>{product.description}</p>
-                        <Link to={"/product/"+product._id}>Acessar</Link>
+                        <Link id="linkPostagem" to={"/product/"+product._id}>Acessar</Link>
                   </article>  
                 ))}
                 <div className="actions">
